@@ -1,0 +1,23 @@
+plugin.tx_matomoapi_matomo {
+    view {
+        templateRootPaths {
+            0 = EXT:matomoapi/Resources/Private/Templates/
+            10 = {$plugin.tx_matomoapi_matomo.view.templateRootPaths.10}
+        }
+        partialRootPaths {
+            0 = EXT:matomoapi/Resources/Private/Partials/
+            10 = {$plugin.tx_matomoapi_matomo.view.partialRootPaths.10}
+        }
+        layoutRootPaths {
+            0 = EXT:matomoapi/Resources/Private/Layouts/
+            10 = {$plugin.tx_matomoapi_matomo.view.layoutRootPaths.10}
+        }
+    }
+    settings {
+        apiUrl = {$plugin.tx_matomoapi_matomo.settings.apiUrl}
+        tokenAuth = {$plugin.tx_matomoapi_matomo.settings.tokenAuth}
+        method = {$plugin.tx_matomoapi_matomo.settings.method}
+        parameters {
+        }
+    }
+}

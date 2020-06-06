@@ -1,0 +1,18 @@
+{
+  "name": "famouswolf/matomoapi",
+  "description": "TYPO3 extension to tak to Matomo API and display it with a template",
+  "type": "typo3-cms-extension",
+  "license": "GPL-3.0-or-later",
+  "require": {
+    "typo3/cms-core": "^10.4.2",
+    "ext-json": "*"
+  },
+  "replace": {
+    "typo3-ter/matomoapi": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "FamousWolf\\Matomoapi\\": "Classes/"
+    }
+  }
+}
