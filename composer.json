@@ -1,6 +1,6 @@
 {
   "name": "famouswolf/matomoapi",
-  "description": "TYPO3 extension to tak to Matomo API and display it with a template",
+  "description": "TYPO3 extension to talk to Matomo API and display it with a template",
   "type": "typo3-cms-extension",
   "license": "GPL-3.0-or-later",
   "require": {
